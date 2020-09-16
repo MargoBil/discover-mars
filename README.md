@@ -1,1 +1,1 @@
-# discover_mars
+# discover-mars
