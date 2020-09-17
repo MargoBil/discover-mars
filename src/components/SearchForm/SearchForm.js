@@ -7,10 +7,7 @@ import '@rmwc/button/styles';
 import '@rmwc/formfield/styles';
 import '@rmwc/select/styles';
 import '@rmwc/textfield/styles';
-import { createSnackbarQueue } from '@rmwc/snackbar';
-import '@rmwc/snackbar/styles';
 
-const alert = createSnackbarQueue();
 
 class SearchForm extends Component {
   state = {
@@ -21,7 +18,7 @@ class SearchForm extends Component {
   handleSubmit = e => {
     e.preventDefault();
     if (!this.state.selectedItem & !this.state.sol) {
-      return alert.notify({title:'Select all inputs!'});
+      return alert('Select all inputs!');
     }
     this.props.onSubmit(this.state);
   };
