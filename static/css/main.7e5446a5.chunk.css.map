@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.module.css"],"names":[],"mappings":"AAAA,oBACI,YAAa,CACb,sBAAuB,CACvB,cACJ,CACA,KACI,wBACJ","file":"main.7e5446a5.chunk.css","sourcesContent":[".wrapper {\r\n    display: flex;\r\n    justify-content: center;\r\n    flex-wrap: wrap;\r\n}\r\nbody {\r\n    background-color:whitesmoke;\r\n}"]}
